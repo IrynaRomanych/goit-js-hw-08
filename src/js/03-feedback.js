@@ -19,6 +19,7 @@ function onFormInput(event) {
 
 function onFormSubmit(event) {
   event.preventDefault();
+  console.log(formData);
 
   event.currentTarget.reset();
   LS.removeItem(STORAGE_KEY);
